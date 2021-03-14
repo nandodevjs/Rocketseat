@@ -1,0 +1,26 @@
+/*
+    Seletores: Conecta um elemtendo HTML com o CSS.
+
+    Tipos:
+    * Global selector `*`
+    * Element/Type selector `h1, h2, p, div`
+    * Id selector `#box, #container`
+    * Class selector `.red, .m-4`
+    * Attribute selector, Pseudo-class, Pseuo-element, e outro.
+    */
+
+* {
+  margin: 0;
+  border-radius: 0;
+}
+
+#container {
+    width:center;
+    margin:40px;
+}
+
+h1, h2 {
+  color: limegreen;
+  font-size: 60px;
+  background-color: grey;
+}
